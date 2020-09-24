@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import GifList from '../components/GifList'
 import GifSearch from '../components/GifSearch'
 
+const apiKey = '996xOATUv4Iz8cpPwsoEOQfsK3bGv0gD'
+
 class GifListContainer extends Component {
 
     state = {
@@ -18,7 +20,7 @@ class GifListContainer extends Component {
     // }
 
     fetchGifs = (term = "dolphins") => {
-        fetch(`https://api.giphy.com/v1/gifs/search?q=${term}&api_key=dc6zaTOxFJmzC&rating=g&limit=10`)
+        fetch(`https://api.giphy.com/v1/gifs/search?q=${term}&api_key=996xOATUv4Iz8cpPwsoEOQfsK3bGv0gD&rating=g&limit=10`)
             .then(resp => resp.json())
             .then(data => this.setState({ gifs: data.data }))
     }
