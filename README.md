@@ -1,5 +1,5 @@
 # Giphy Search!
-
+ finished
 
 - mapping out hierarchies
 - diving in
