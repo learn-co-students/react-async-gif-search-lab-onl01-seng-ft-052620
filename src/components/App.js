@@ -14,3 +14,6 @@ const App = () => {
 }
 
 export default App
+
+
+//key url : https://api.giphy.com/v1/gifs/search?q=dolphin&api_key=73qOrQjOU3mLX1KTGYVHXFer1S5xogY5&rating=g
